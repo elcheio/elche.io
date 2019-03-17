@@ -1,0 +1,72 @@
+.a-link-box {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.25rem 0.75rem;
+
+    &--size {
+        &-m {
+            font-size: 2rem;
+            line-height: 1.25;
+        }
+
+        &-l {
+            font-size: 2.5rem;
+            line-height: 1.25;
+        }
+    }
+
+    &--color {
+        &-light {
+            color: var(--color-dark);
+            background-color: var(--color-light);
+        }
+
+        &-dark {
+            color: var(--color-light);
+            background-color: var(--color-dark);
+        }
+
+        &-primary {
+            color: var(--color-light);
+            background-color: var(--color-primary);
+        }
+
+        &-secondary {
+            color: var(--color-dark);
+            background-color: var(--color-secondary);
+        }
+
+        &-js {
+            color: var(--color-dark);
+            background-color: var(--color-js);
+        }
+
+        &-vue {
+            color: var(--color-dark);
+            background-color: var(--color-vue);
+        }
+
+        &-react {
+            color: var(--color-dark);
+            background-color: var(--color-react);
+        }
+
+        &-sass {
+            color: var(--color-light);
+            background-color: var(--color-sass);
+        }
+
+        &-webpack {
+            color: var(--color-light);
+            background-color: var(--color-webpack);
+        }
+    }
+
+    &--hover {
+        &:hover {
+            color: var(--color-light);
+            background-color: var(--color-dark);
+        }
+    }
+}
