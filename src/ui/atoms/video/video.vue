@@ -31,6 +31,6 @@
                 required: false,
                 default: false,
             },
-        }
+        },
     };
 </script>

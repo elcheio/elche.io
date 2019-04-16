@@ -4,5 +4,6 @@
         <main class="elx__main">
             <p-home></p-home>
         </main>
+        <o-footer></o-footer>
     </div>
 </template>

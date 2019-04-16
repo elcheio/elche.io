@@ -1,0 +1,9 @@
+.o-footer {
+    margin-top: 4rem;
+    overflow: hidden;
+
+    &__box {
+        height: 6rem;
+        background-color: var(--color-tertiary);
+    }
+}

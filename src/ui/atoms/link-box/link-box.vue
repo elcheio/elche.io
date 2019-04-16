@@ -44,6 +44,7 @@
                         'react',
                         'sass',
                         'webpack',
+                        'cologne',
                     ].indexOf(size) !== -1;
                 },
                 default: 'light',

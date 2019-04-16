@@ -1,10 +1,10 @@
 <template>
     <header class="o-header t-inner">
         <a-link-box
-            size="l"
-            color="secondary"
+            size="xl"
+            color="primary"
         >
-            ELX.dev
+            <m-ticker>ELX.dev</m-ticker>
         </a-link-box>
 
         <m-navigation class="o-header__navigation"></m-navigation>

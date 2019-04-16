@@ -1,12 +1,13 @@
 .o-header {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
     z-index: 1;
     display: flex;
     align-items: flex-end;
-    padding: 1rem 4rem;
+    padding-top: 2rem;
 
     &__navigation {
         display: flex;

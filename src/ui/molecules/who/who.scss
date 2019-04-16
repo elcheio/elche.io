@@ -1,0 +1,22 @@
+.m-who {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        left: -1%;
+        bottom: 0;
+        width: 102%;
+        height: 1.5rem;
+        transform: rotate(2.3deg);
+        transform-origin: bottom left;
+        background-color: var(--color-light);
+    }
+}

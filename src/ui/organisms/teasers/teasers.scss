@@ -1,0 +1,20 @@
+.o-teasers {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-colums: repeat(2, 1fr);
+    grid-row-gap: 4rem;
+    grid-column-gap: 2rem;
+    padding-top: 1rem;
+
+    &__work {
+        grid-column: 1 / span 2;
+    }
+
+    &__blog {
+        grid-column: 1;
+    }
+
+    &__about {
+        grid-column: 2;
+    }
+}

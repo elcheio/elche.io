@@ -1,0 +1,45 @@
+.t-skew {
+    --degree: 2.3deg;
+    --degree-negative: calc(var(--degree) * -1);
+
+    overflow: hidden;
+
+    &--bottom-left {
+        transform: skewY(var(--degree-negative));
+
+        &,
+        .t-skew__inner {
+            transform-origin: bottom left;
+        }
+
+        .t-skew__inner {
+            transform: skewY(var(--degree));
+        }
+    }
+
+    &--top-left {
+        transform: skewY(var(--degree));
+
+        &,
+        .t-skew__inner {
+            transform-origin: top left;
+        }
+
+        .t-skew__inner {
+            transform: skewY(var(--degree-negative));
+        }
+    }
+
+    &--top-right {
+        transform: skewY(var(--degree-negative));
+
+        &,
+        .t-skew__inner {
+            transform-origin: top right;
+        }
+
+        .t-skew__inner {
+            transform: skewY(var(--degree));
+        }
+    }
+}

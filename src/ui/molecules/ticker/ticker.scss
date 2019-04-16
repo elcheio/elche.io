@@ -1,0 +1,30 @@
+.m-ticker {
+    &__initial {
+        position: relative;
+        animation: cursor 0.75s infinite step-end;
+
+        &--play {
+            animation: none;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: calc(100% - 0.5rem);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: currentColor;
+        }
+    }
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}

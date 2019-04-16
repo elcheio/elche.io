@@ -1,0 +1,8 @@
+.a-text-link {
+    color: var(--color-primary);
+    font-weight: 400;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
